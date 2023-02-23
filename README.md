@@ -10,6 +10,6 @@ npm install --save-dev react react-dom
 npx -p @storybook/cli sb init --type react
 
 ## Run it in your machine. React and Storybook.
-npm start <br> (react)
+npm start (react)<br> 
 npm run storybook (storybook)
 
