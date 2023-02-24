@@ -7,8 +7,8 @@ npm i --save @fortawesome/fontawesome-svg-core <br>
 npm install --save @fortawesome/free-solid-svg-icons <br>
 npm install --save @fortawesome/react-fontawesome <br>
 npm i styled-components <br>
-npm install --save-dev react react-dom
-npx -p @storybook/cli sb init --type react
+npm install --save-dev react react-dom <br>
+npx -p @storybook/cli sb init --type react <br>
 npm install @storybook/addon-a11y
 
 ## Run it in your machine 
