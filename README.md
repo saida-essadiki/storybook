@@ -1,5 +1,5 @@
 # ICT Project - Ambientia Storybook
-This is a simple react web app, where we have implimented Storybook testing possibilites. 
+This is a simple react web app, where we have implimented Storybook testing possibilites. Mostly focusing with interaction and accessability testing. 
 
 ## Installations
 yarn add -D @storybook/addon-interactions @storybook/jest @storybook/testing-library <br>
