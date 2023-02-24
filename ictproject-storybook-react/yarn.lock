@@ -2112,7 +2112,7 @@
 
 "@storybook/addon-interactions@^6.5.16":
   version "6.5.16"
-  resolved "https://registry.npmjs.org/@storybook/addon-interactions/-/addon-interactions-6.5.16.tgz"
+  resolved "https://registry.yarnpkg.com/@storybook/addon-interactions/-/addon-interactions-6.5.16.tgz#2855fe946c9d8595c3486ae696f1d99e7fca582b"
   integrity sha512-DdTtyp3DgB/SpbM1GQgMnuSEBCkadxmj1mUcPk+Wp2iY+fDwsuoRDkr1H9Oe7IvlBKe7ciR79LEjoaABXNdw4w==
   dependencies:
     "@devtools-ds/object-inspector" "^1.1.2"
@@ -2635,7 +2635,7 @@
 
 "@storybook/jest@^0.0.10":
   version "0.0.10"
-  resolved "https://registry.npmjs.org/@storybook/jest/-/jest-0.0.10.tgz"
+  resolved "https://registry.yarnpkg.com/@storybook/jest/-/jest-0.0.10.tgz#4fbc43ebc3ae6cce8232d6bd9b56ef710f481e52"
   integrity sha512-qeYLIplpcOUQXboJde5pRCjTvkGmF80jEszRUoNYCNcEPfC2sMK68Wq6Ct8EQj3CoEdJqsK54O2YYh+7D9S+ag==
   dependencies:
     "@storybook/expect" storybook-jest
@@ -2909,7 +2909,7 @@
 
 "@storybook/testing-library@^0.0.13":
   version "0.0.13"
-  resolved "https://registry.npmjs.org/@storybook/testing-library/-/testing-library-0.0.13.tgz"
+  resolved "https://registry.yarnpkg.com/@storybook/testing-library/-/testing-library-0.0.13.tgz#417c87d4ea62895092ec5fdf67027ae201254f45"
   integrity sha512-vRMeIGer4EjJkTgI8sQyK9W431ekPWYCWL//OmSDJ64IT3h7FnW7Xg6p+eqM3oII98/O5pcya5049GxnjaPtxw==
   dependencies:
     "@storybook/client-logger" "^6.4.0"
