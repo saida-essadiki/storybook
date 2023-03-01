@@ -5,7 +5,7 @@ import { within, userEvent, fireEvent } from '@storybook/testing-library'
 import { expect } from '@storybook/jest';
 
 export default {
-  title: 'Feedback Page',
+  title: 'STORIES/Feedback Page',
   layout: 'fullscreen',
   component: FeedbackPage
 
