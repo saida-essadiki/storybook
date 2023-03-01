@@ -2,15 +2,21 @@ import React from "react";
 import About from "./About";
 import Footer from "./Footer";
 import Banner from "./Banner";
+import Sidebar from "./Sidebar";
 
 export function AboutScreen() {
   return (
     <>
-      <Banner />
+      <Sidebar />
+      <div className="content">
+        <Banner />
       <br />
-      <About />
+        <About />
       <br />
       <Footer />
+
+      </div>
+      
     </>
   );
 }

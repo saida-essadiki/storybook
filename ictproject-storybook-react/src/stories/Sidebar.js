@@ -30,21 +30,17 @@ function Sidebar({loggedIn}) {
   };
 
   return (
-    <div className={`container ${showSidebar ? 'sidebar-visible' : 'sidebar-hidden'}`}>
-      {showSidebar && <div className="sidebar"> <Logo src="./../public/logo.png" alt="Logo" />
-      
-      <ul className='links'>
-     <ul className='link'><a href='/'>Home</a> </ul> 
-     <ul className='link'> <a href='./Users/saida/Documents/GitHub/storybook/ictproject-storybook-react/src/stories/FeedbackPage.js'>Feedback</a></ul>
-     <ul className='link'><a href='/'>Contact Us</a></ul>
-     <ul className='link'> <a href='/'>About Us</a></ul>
-    </ul>
-     <LoginButton>{loggedIn ? 'Hello Storytesters' : 'Login'}</LoginButton>
-     
-    </div>}
-       <button className='toggle' onClick={toggleSidebar}>-</button>
-   
+    <div class="sidebar"> <Logo src="./../public/logo.png" alt="Logo" />
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+
+         <LoginButton>{loggedIn ? 'Hello Storytesters' : 'Login'}</LoginButton>
     </div>
+    
+    
+      
   );
 }
 
