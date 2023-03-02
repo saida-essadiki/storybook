@@ -15,7 +15,7 @@ npm install --save @fortawesome/free-solid-svg-icons <br>
 npm install --save @fortawesome/react-fontawesome <br>
 npm i styled-components <br>
 npm install @mui/material @emotion/react @emotion/styled <br>
-npm install react-datepicker --save <br>
+npm install react-day-picker date-fns<br>
 
 ## Run it in your machine 
 npm run storybook (storybook)
