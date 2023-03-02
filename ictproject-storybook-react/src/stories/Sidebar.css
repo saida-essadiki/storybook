@@ -7,7 +7,7 @@ body {
   margin: 0;
   padding: 0;
   width: 200px;
-  background-color: #eccce6;
+  background: rgba(250, 233, 233, 0.82);;
   position: fixed;
   height: 100%;
   overflow: auto;

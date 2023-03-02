@@ -13,7 +13,7 @@ const Template = (args) => <Banner {...args} />;
 
 export const Default = Template.bind({});
 Default.args = {
-  src: 'https://i.pinimg.com/originals/11/78/cf/1178cf5dd4a6ccd59318305541030945.jpg',
+  src: 'https://4kwallpapers.com/images/walls/thumbs_3t/2230.jpg',
   alt: 'Banner',
 };
 
