@@ -1,45 +1,62 @@
-import * as React from 'react';
-import Button from '@mui/material/Button';
-import CardActions from '@mui/material/CardActions';
-import PropTypes from 'prop-types';
+import React from "react";
+import PropTypes from "prop-types";
+import "./Button.css";
 
+/**
+ * Primary UI component for user interaction
+ */
+export function Button({
+  primary,
+  backgroundColor,
+  size,
+  label,
 
-
-export default function button() {
-  return (<CardActions>
-        <Button size="large">Share</Button>
-      </CardActions>
-      
-  
+  ...props
+}) {
+  const mode = primary
+    ? "storybook-button--primary"
+    : "storybook-button--secondary";
+  return (
+    <button
+      type="button"
+      className={["storybook-button", `storybook-button--${size}`, mode].join(
+        " "
+      )}
+      style={backgroundColor && { backgroundColor }}
+      {...props}
+    >
+      {label}
+    </button>
   );
 }
 
-button.propTypes = {
-    /**
-     * Is this the principal call to action on the page?
-     */
-    primary: PropTypes.bool,
-    /**
-     * What background color to use
-     */
-    backgroundColor: PropTypes.string,
-    /**
-     * How large should the button be?
-     */
-    size: PropTypes.oneOf(['small', 'medium', 'large']),
-    /**
-     * Button contents
-     */
-    label: PropTypes.string.isRequired,
-    /**
-     * Optional click handler
-     */
-    onClick: PropTypes.func,
-  };
-  
-  button.defaultProps = {
-    backgroundColor: null,
-    primary: false,
-    size: 'medium',
-    onClick: undefined,
-  };
+Button.propTypes = {
+  /**
+   * Is this the principal call to action on the page?
+   */
+  primary: PropTypes.bool,
+  /**
+   * What background color to use
+   */
+  backgroundColor: PropTypes.string,
+  /**
+   * How large should the button be?
+   */
+  size: PropTypes.oneOf(["small", "medium", "large"]),
+  /**
+   * Button contents
+   */
+  label: PropTypes.string.isRequired,
+  /**
+   * Optional click handler
+   */
+  onClick: PropTypes.func,
+};
+
+Button.defaultProps = {
+  backgroundColor: null,
+  primary: false,
+  size: "medium",
+  onClick: undefined,
+};
+export default Button;
