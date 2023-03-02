@@ -1,12 +1,9 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
 import './Sidebar.css';
+import logo from "../../public/logo.png"
 
-const Logo = styled.img`
-  height: 90px;
-  margin-left: 60px;
-  margin-top: 20px;
-`;
+
 const LoginButton = styled.button`
   background-color: purple;
   border: none;
@@ -14,12 +11,11 @@ const LoginButton = styled.button`
   padding: 10px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
+  display: block;
   font-size: 16px;
-  margin-top: 90px;
-  margin-left: 70px;
-  margin-right:50px;
-  margin: 40px;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 25%;
 `;
 
 function Sidebar({loggedIn}) {
@@ -30,7 +26,13 @@ function Sidebar({loggedIn}) {
   };
 
   return (
-    <div class="sidebar"> <Logo src="./../public/logo.png" alt="Logo" />
+    <>
+    
+    <div class="sidebar"> 
+      <div className='logo'>
+        <img src={logo} alt="Logo" /> 
+      </div>
+        
         <a class="active" href="#home">Home</a>
         <a href="#news">News</a>
         <a href="#contact">Contact</a>
@@ -40,7 +42,7 @@ function Sidebar({loggedIn}) {
     </div>
     
     
-      
+    </>  
   );
 }
 
