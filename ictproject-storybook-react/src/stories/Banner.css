@@ -21,9 +21,11 @@ h6 { font-size: 22px; }
 
 .banner {
   color: white;
-  background: url('https://4kwallpapers.com/images/walls/thumbs_3t/2230.jpg') top left/cover no-repeat;
-  height: 300px;
+  background: url(../../public/banner.jpg) top left/cover no-repeat;
+  height: 220px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
