@@ -54,7 +54,7 @@ function LoginPage(props) {
                 </button>
 
                 <button className="socialButton">
-                  <span className="middle"><FontAwesomeIcon icon={faTwitter} size="2x" /></span>
+                  <span className="middle"><FontAwesomeIcon icon={faTwitter} size="2x"  /></span>
                   <span>Login to facebook</span>
                 </button>
           </div>
@@ -66,7 +66,7 @@ function LoginPage(props) {
 
 
           <div className="flex-item-loginpage">
-            <img src={img} alt="img_oldcomputer" />
+            <img className="img_old" src={img} alt="img_oldcomputer" />
           </div>
       </div>
 </div>

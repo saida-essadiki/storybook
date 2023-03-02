@@ -15,9 +15,10 @@
   padding: 30px;
 }
 
-img {
+img.img_old{
   width: 90%;
   height: 90%;
+  
  }
 
  .line {
@@ -36,6 +37,7 @@ p{
 
  .middle{
   display: inline-block;
+  margin-right: 1rem;
 }
 .buttons {
   margin: 1.70rem;
