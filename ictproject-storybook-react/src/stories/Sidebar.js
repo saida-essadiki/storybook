@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
-import styled from 'styled-components';
-import './Sidebar.css';
+import React, { useState } from "react";
+import styled from "styled-components";
+import "./Sidebar.css";
 
 const Logo = styled.img`
   height: 90px;
@@ -18,11 +18,11 @@ const LoginButton = styled.button`
   font-size: 16px;
   margin-top: 90px;
   margin-left: 70px;
-  margin-right:50px;
+  margin-right: 50px;
   margin: 40px;
 `;
 
-function Sidebar({loggedIn}) {
+function Sidebar({ loggedIn }) {
   const [showSidebar, setShowSidebar] = useState(true);
 
   const toggleSidebar = () => {
@@ -30,17 +30,17 @@ function Sidebar({loggedIn}) {
   };
 
   return (
-    <div class="sidebar"> <Logo src="./../public/logo.png" alt="Logo" />
-        <a class="active" href="#home">Home</a>
-        <a href="#news">News</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
-
-         <LoginButton>{loggedIn ? 'Hello Storytesters' : 'Login'}</LoginButton>
+    <div className="sidebar">
+      {" "}
+      <Logo src="./../public/logo.png" alt="Logo" />
+      <a class="active" href="#home">
+        Home
+      </a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+      <LoginButton>{loggedIn ? "Hello Storytesters" : "Login"}</LoginButton>
     </div>
-    
-    
-      
   );
 }
 

@@ -10,6 +10,9 @@ module.exports = {
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
     "@storybook/addon-a11y",
+    "storybook-addon-react-router-v6",
+    "@storybook/preset-create-react-app",
+    "storybook-addon-designs",
   ],
   features: {
     interactionsDebugger: true, // 👈 Enable playback controls

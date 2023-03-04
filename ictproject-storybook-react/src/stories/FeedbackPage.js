@@ -5,15 +5,14 @@ import Footer from "./Footer";
 import Sidebar from "./Sidebar";
 
 export function FeedbackPage() {
-    return (
-        <>
-            <Sidebar />
-            <div className="content">
-
-                <Banner />
-                <FeedbackForm />
-                <Footer />
-                </div>
-        </>
-    )
+  return (
+    <>
+      <Sidebar />
+      <div className="content">
+        <Banner />
+        <FeedbackForm />
+        <Footer />
+      </div>
+    </>
+  );
 }

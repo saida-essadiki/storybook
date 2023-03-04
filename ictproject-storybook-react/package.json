@@ -10,12 +10,14 @@
     "@fortawesome/free-solid-svg-icons": "^6.3.0",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "@mui/material": "^5.11.11",
+    "@storybook/preset-create-react-app": "^4.1.2",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "date-fns": "^2.29.3",
     "react-datepicker": "^4.10.0",
     "react-day-picker": "^8.6.0",
+    "react-router-dom": "^6.8.2",
     "react-scripts": "5.0.1",
     "styled-components": "^5.3.8",
     "web-vitals": "^2.1.4"
@@ -26,7 +28,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=b2b2c767b56c"
   },
   "eslintConfig": {
     "extends": [
@@ -59,7 +62,12 @@
     "@storybook/react": "^6.5.16",
     "@storybook/testing-library": "^0.0.13",
     "babel-loader": "^8.3.0",
+    "chromatic": "^6.17.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  }
+    "react-dom": "^18.2.0",
+    "storybook-addon-designs": "^6.3.1",
+    "storybook-addon-react-router-v6": "^0.2.1"
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "ictproject-storybook-react@0.1.0"
 }

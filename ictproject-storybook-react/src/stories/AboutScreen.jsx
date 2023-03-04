@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import Banner from "./Banner";
 import Sidebar from "./Sidebar";
 
+
 export function AboutScreen() {
   return (
     <>

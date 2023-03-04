@@ -7,11 +7,9 @@ import { LoginForm } from "./LoginForm";
 
 import "./LoginPage.css";
 import Sidebar from "./Sidebar";
-import Footer from "./Footer";
-import img from '../../public/img.jpg'
+import img from "../../public/img.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faYoutube,
   faFacebook,
   faTwitter,
   faGoogle,
@@ -31,7 +29,6 @@ function LoginPage(props) {
       <div className="content">
         <Banner />
         <div className="flex-container">
-
           <div className="flex-item-loginpage">
             <LoginForm />
 
@@ -41,44 +38,36 @@ function LoginPage(props) {
               <hr className="line" />
             </div>
 
-           
-              <div className="buttons">
-                <button className="socialButton">
-                  <span className="middle"><FontAwesomeIcon icon={faFacebook} size="2x" /></span>
-                  <span>Login to facebook</span>
-                </button>
+            <div className="buttons">
+              <button className="socialButton">
+                <span className="middle">
+                  <FontAwesomeIcon icon={faFacebook} size="2x" />
+                </span>
+                <span>Login to facebook</span>
+              </button>
 
-                <button className="socialButton">
-                  <span className="middle"><FontAwesomeIcon icon={faGoogle} size="2x" /></span>
-                  <span>Login to facebook</span>
-                </button>
+              <button className="socialButton">
+                <span className="middle">
+                  <FontAwesomeIcon icon={faGoogle} size="2x" />
+                </span>
+                <span>Login to facebook</span>
+              </button>
 
-                <button className="socialButton">
-                  <span className="middle"><FontAwesomeIcon icon={faTwitter} size="2x" /></span>
-                  <span>Login to facebook</span>
-                </button>
+              <button className="socialButton">
+                <span className="middle">
+                  <FontAwesomeIcon icon={faTwitter} size="2x" />
+                </span>
+                <span>Login to facebook</span>
+              </button>
+            </div>
           </div>
-          </div>
-            
-          
-        
-
-
 
           <div className="flex-item-loginpage">
             <img src={img} alt="img_oldcomputer" />
           </div>
+        </div>
       </div>
-</div>
-
-
-
-
-
     </>
-
-
-
   );
 }
 
