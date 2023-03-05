@@ -10,7 +10,7 @@ import { LoginForm } from "./LoginForm";
 import "./Button.stories";
 
 export default {
-  title: "Component/LoginForm",
+  title: "COMPONENTS/LoginForm",
   component: LoginForm,
 };
 

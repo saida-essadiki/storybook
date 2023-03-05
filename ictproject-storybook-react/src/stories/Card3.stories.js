@@ -3,7 +3,7 @@ import Card3 from './Card3';
 
 
 export default{
-    title: 'Card3',
+    title: 'COMPONENTS/Card3',
     component: Card3,
     argTypes: {
       label:{

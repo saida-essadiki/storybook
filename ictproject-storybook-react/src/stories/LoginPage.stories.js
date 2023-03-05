@@ -3,7 +3,7 @@ import React from "react";
 import LoginPage from "./LoginPage";
 
 export default {
-  title: "Component/LoginPage",
+  title: "Pages/LoginPage",
   component: LoginPage,
 
   parameters: {

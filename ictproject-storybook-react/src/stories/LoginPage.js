@@ -8,10 +8,9 @@ import { LoginForm } from "./LoginForm";
 import "./LoginPage.css";
 import Sidebar from "./Sidebar";
 import Footer from "./Footer";
-import img from '../../public/img.jpg'
+import img from './assets/img.jpg';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faYoutube,
   faFacebook,
   faTwitter,
   faGoogle,
@@ -45,17 +44,17 @@ function LoginPage(props) {
               <div className="buttons">
                 <button className="socialButton">
                   <span className="middle"><FontAwesomeIcon icon={faFacebook} size="2x" /></span>
-                  <span>Login to facebook</span>
+                  <span>Login with Facebook</span>
                 </button>
 
                 <button className="socialButton">
                   <span className="middle"><FontAwesomeIcon icon={faGoogle} size="2x" /></span>
-                  <span>Login to facebook</span>
+                  <span>Login with Google</span>
                 </button>
 
                 <button className="socialButton">
                   <span className="middle"><FontAwesomeIcon icon={faTwitter} size="2x"  /></span>
-                  <span>Login to facebook</span>
+                  <span>Login with Twitter</span>
                 </button>
           </div>
           </div>

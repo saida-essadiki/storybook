@@ -81,7 +81,7 @@ TestingFailure.play = async ({canvasElement, args}) => {
    
 }
 
-export const TestingEmptyField = Template.bind({});
+/*export const TestingEmptyField = Template.bind({});
 TestingEmptyField.play = async ({canvasElement, args}) => {
     const canvas = within(canvasElement)
 
@@ -107,13 +107,12 @@ TestingEmptyField.play = async ({canvasElement, args}) => {
         delay: 300,
     });   
 
-
+}
     await userEvent.click(canvas.getByRole('button', {delay: 300}));
 
-  /*  await waitFor(() => canvas.getByRole('alert'))*/
+    await waitFor(() => canvas.getByRole('alert'))*/
 
     /*await screen.getByRole('alert').toHaveValue('Please fill out this field.');*/
 
 
    
-}

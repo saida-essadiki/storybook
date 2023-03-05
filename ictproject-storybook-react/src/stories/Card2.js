@@ -1,5 +1,5 @@
 import * as React from 'react';
-
+import img2 from './assets/img2.jpg';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -12,7 +12,7 @@ export default function MediaCard2() {
     <Card sx={{ maxWidth: 350 }}>
       <CardMedia
         sx={{ height: 200 }}
-        image="SS.jpg"
+        image={img2}
         title="Saint Seiya"
       />
 

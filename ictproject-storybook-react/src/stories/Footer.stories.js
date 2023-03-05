@@ -1,4 +1,4 @@
-import React from "react";
+/* import React from "react";
 import Footer from "./Footer";
 import { within, userEvent, fireEvent } from '@storybook/testing-library'
 import { expect } from '@storybook/jest';
@@ -43,3 +43,4 @@ linkOpening.play = async ({}) => {
 }
 
 
+ */

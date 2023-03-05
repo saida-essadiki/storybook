@@ -2,7 +2,7 @@ import React from "react";
 import { MainScreen } from "./MainScreen";
 
 export default {
-  title: "MainScreen",
+  title: "Pages/MainScreen",
   component: MainScreen,
   layout: "fullscreen",
 };

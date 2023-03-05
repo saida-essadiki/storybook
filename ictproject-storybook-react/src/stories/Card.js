@@ -1,5 +1,5 @@
 import * as React from 'react';
-
+import img1 from './assets/img1.jpg';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -12,7 +12,7 @@ export default function MediaCard() {
     <Card sx={{ maxWidth: 350 }}>
       <CardMedia
         sx={{ height: 200 }}
-        image="ufo1.png"
+        image={img1}
         title="UFO USnavy"
       />
 

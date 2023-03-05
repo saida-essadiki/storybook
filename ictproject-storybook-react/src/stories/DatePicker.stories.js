@@ -2,7 +2,7 @@ import { within, userEvent } from "@storybook/testing-library";
 import { DatePicker } from "./DatePicker";
 
 export default {
-  title: "Component/DatePicker",
+  title: "COMPONENTS/DatePicker",
   component: DatePicker,
   argTypes: {},
 };

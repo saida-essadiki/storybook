@@ -2,7 +2,7 @@ import React from "react";
 import { AboutScreen } from "./AboutScreen";
 
 export default {
-  tittle: "AboutScreen",
+  tittle: "Pages/AboutScreen",
   component: AboutScreen,
   layout: "fullscreen",
 };
