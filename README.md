@@ -16,6 +16,9 @@ npm install --save @fortawesome/react-fontawesome <br>
 npm i styled-components <br>
 npm install @mui/material @emotion/react @emotion/styled <br>
 npm install react-day-picker date-fns<br>
+git checkout -b chromatic-test
+
+
 
 ## Run it in your machine 
 npm run storybook (storybook)
