@@ -4,7 +4,6 @@ This is a simple react web app, where we have implimented Storybook testing poss
 ## We have tried different addons with Storybook. <br>
  - Accessability and testing enviornment, which is very useful for the Web Development process. <br>
  
-
 ## Installations
 npm install --save-dev react react-dom <br>
 npx -p @storybook/cli sb init --type react <br>
@@ -16,13 +15,12 @@ npm install --save @fortawesome/react-fontawesome <br>
 npm i styled-components <br>
 npm install @mui/material @emotion/react @emotion/styled <br>
 npm install react-day-picker date-fns<br>
-yarn add -D chromatic      
-
-
 
 ## Run it in your machine 
 npm run storybook (storybook)
 
-
 ### If you may come up with webpack issues, run this in your command line
 npx sb init --builder webpack5
+
+# More detailed information can be found from this documentation
+https://hameenamk.sharepoint.com/:w:/s/ICTProject253/EbEUQ6Cgu1hAinMajqU1fYYB1shlPUodOicjko-R1Il2KA?e=6HhOqI 
